@@ -1,6 +1,6 @@
-# Arch GRIT (Graphical Recovery and Installation Tool) - WIP
+# Arch GRIT (Graphical Recovery and Installation Tool)
 
-A custom, graphical Arch Linux live environment, built with [Archiso](https://wiki.archlinux.org/index.php/Archiso).</br>
+### A custom, graphical Arch Linux live environment, built with [`archiso`](https://wiki.archlinux.org/index.php/Archiso).</br>
 **Features:**
  - Graphical desktop environment, with standard tools such as file and web browser.
  - Modular, customizable Arch Linux installation script with 3 **Installation Types**:
@@ -10,7 +10,6 @@ A custom, graphical Arch Linux live environment, built with [Archiso](https://wi
  - Various scripts and software packages to aid with the recovery of any system.
  - No more password-less login as root! Keep unintended users **out** of the installation environment!
 <br>
-
 
 ## Installation Types
 
@@ -36,7 +35,7 @@ A custom, graphical Arch Linux live environment, built with [Archiso](https://wi
     - `discord` - Chat App
     - `firefox` - Web Browser
     - `steam` - Game Store
-
+<br>
 
 ## Usage
  - Build the ISO image, or download the pre-built image.
@@ -44,11 +43,11 @@ A custom, graphical Arch Linux live environment, built with [Archiso](https://wi
  - Boot the USB flash drive.
  - Log in as `live_user` with the password `archlinux`.
  - Run `arch-grit install` for the installation menu.
-
+<br>
 
 ## Build Instructions
 
-Building this project requires a functional Arch Linux system, with [`archiso`](https://wiki.archlinux.org/index.php/archiso) installed.
+Building this project requires a functional Arch Linux system, with [`archiso`](https://www.archlinux.org/packages/extra/any/archiso/) installed.
 For those of you whom are **not** running Arch Linux already, there is a signed, pre-built ISO available [here](https://github.com/ryyzer/arch-grit).
 
 #### Building
@@ -61,4 +60,5 @@ For those of you whom are **not** running Arch Linux already, there is a signed,
 #### Writing to USB flash drive
 **WARNING:** Please be careful with the `dd` command, it is relatively easy to wipe out an entire drive worth of data.
  - `sudo dd bs=4M status=progress oflag=sync if=out/arch-grit.iso of=/dev/sdX`
+<br>
 ---
