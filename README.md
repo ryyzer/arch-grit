@@ -1,7 +1,9 @@
 # Arch GRIT (Graphical Recovery and Installation Tool)
 
-#### A custom, graphical Arch Linux live environment, built with [`archiso`](https://wiki.archlinux.org/index.php/Archiso).</br>
-**Features:**
+#### A custom, graphical Arch Linux live environment, built with [`archiso`](https://wiki.archlinux.org/index.php/Archiso).
+<br>
+
+## Overview**
  - Graphical desktop environment, with standard tools such as file and web browser.
  - Modular, customizable Arch Linux installation script with 3 **Installation Types**:
     - Minimal: Installed as per the [Official Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide), no customization, no extras.
